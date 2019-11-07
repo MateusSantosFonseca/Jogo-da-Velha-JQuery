@@ -1,0 +1,68 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 500px;
+   
+}
+
+td{
+    font-size: 96px;
+    width: 166px;
+    height: 166px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.configurador{
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+div input{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#vs{
+    font-size: 30px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+div label{
+    font-size: 12px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+button{
+    background-color: rgb(86, 238, 243);
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 1% 2% 1% 2% ;
+    border-radius: 15%;
+}
+
+#spanjog1, #spanjog2{
+    font-weight: bold;
+}
+
+.turn{
+    display: block;
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 22px;
+}
