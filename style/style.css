@@ -6,32 +6,30 @@ table {
     border-collapse: collapse;
     margin: auto;
     width: 500px;
-   
 }
 
 td{
     font-size: 96px;
-    width: 166px;
-    height: 166px;
+    width: 130px;
+    height: 130px;
     border: 1px solid black;
     text-align: center;
 }
 
 .configurador{
     text-align: center;
-    margin-bottom: 4%;
-    margin-top: 2%;
+    margin-bottom: 18px;
+    margin-top: 7px;
 }
 
 div input{
-    margin: 20px;
+    margin: 15px 15px 15px 85px;
     padding: 5px;
     text-align: center;
 }
 
 #vs{
     font-size: 30px;
-    margin-right: 70px;
     text-align: center;
 }
 
@@ -43,26 +41,47 @@ div label{
     clear: both;
 }
 
-button{
+button {
     background-color: rgb(86, 238, 243);
     border: none;
     color: black;
     text-align: center;
     font-size: 18px;
-    margin-top: 30px;
+    padding: 1% 2% 1% 2%;
+    border-radius: 30px;
+}
+
+#botaoComecar{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+#botaoRecomecar{
+    display: block;
+    margin:0 auto; 
+    width: 200px;
+    background-color: rgb(86, 238, 243);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
     padding: 1% 2% 1% 2% ;
-    border-radius: 15%;
+    border-radius: 30px;
 }
 
 #spanjog1, #spanjog2{
+    display:inline-block;
+    margin: 15px;
     font-weight: bold;
 }
 
-.turn{
+.turn, #resultado{
     display: block;
     text-align: center;
-    color: purple;
+    color: rgb(11, 66, 185);
     font-weight: bold;
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 16px;
 }
