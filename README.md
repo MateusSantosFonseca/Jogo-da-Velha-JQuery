@@ -1,4 +1,4 @@
-# Jogo da velha - JQuery
+### Jogo da velha - JQuery
 
 #### Sobre
 Este jogo foi desenvolvido durante o treinamento de JQuery, oferecido através da plataforma Udemy com a finalidade de treinar as teorias aprendidas sobre JQuery, uma poderosa biblioteca de JavaScript.
